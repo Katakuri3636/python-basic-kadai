@@ -1,0 +1,7 @@
+def add_tax(value, tax):
+    value = value + value * tax
+    return value
+
+value = add_tax(1200,0.1)
+
+print(value)
