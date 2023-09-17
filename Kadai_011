@@ -1,0 +1,12 @@
+list= ["水","金","地","火","木","土","天","海","冥"]
+
+# forループを使った場合
+for value in list:
+    print(value)
+
+# whileループを使った場合
+i = 0
+while i < len(list):
+    element = list[i]
+    print(element)
+    i = i + 1
