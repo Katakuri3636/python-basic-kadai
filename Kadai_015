@@ -1,0 +1,12 @@
+class Human:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    
+    def printinfo(self):
+        print(f"名前は{self.name}、年は{self.age}")
+
+
+human = Human("侍太郎",36)
+
+human.printinfo()
