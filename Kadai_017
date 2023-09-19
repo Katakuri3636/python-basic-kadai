@@ -1,0 +1,25 @@
+class Human:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def check_adult(self):
+        if(self.age >= 20):
+            print(f"{self.name} is an adult")
+
+        else:
+            print(f"{self.name} is not an adult")
+
+persons = []
+
+while True:
+    name = input("Enter name : ")
+    age = int(input("Enter age : "))
+    persons.append(Human(name, age))
+    s = int(input("END? Yes:1 No 0 : "))
+    if s==1:
+        break
+    
+
+for person in persons:
+    person.check_adult()
